@@ -3,6 +3,9 @@ from typing import TypedDict, Optional
 from langchain_core.messages import HumanMessage, SystemMessage
 from langgraph.graph import StateGraph, START, END
 
+import langchain
+langchain.debug = True
+
 # Import from our local modules
 from schema import IntentSkeleton
 from prompts import get_intent_extraction_prompt
