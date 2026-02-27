@@ -7,9 +7,7 @@ targets:
 subscriptions:
   sub-clab-telemetry-lab-srl-router:
     paths:
-    - /platform/control/memory
-    - /interface[name=mgmt0]/statistics
-    - /platform/control/cpu
+
     sample-interval: 2000ms
     encoding: json
 outputs:

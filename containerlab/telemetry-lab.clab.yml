@@ -5,6 +5,10 @@ topology:
       kind: nokia_srlinux
       image: ghcr.io/nokia/srlinux:latest
     
+    ceos:
+      kind: arista_ceos
+      image: ceos:4.32.0F
+    
     gnmic:
       kind: linux
       image: ghcr.io/openconfig/gnmic:latest
